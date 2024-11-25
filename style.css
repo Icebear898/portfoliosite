@@ -1,0 +1,100 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 2; /*manages the height between the texts*/
+}
+
+div{
+    align-items: center;
+}
+
+h1, h2 {
+    color: #005f99;
+    text-align: center;
+} 
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    margin-left: 45%;
+}
+
+p {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none; /* to remove bullet points*/
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+a {
+    color: #005f99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff5722;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    h1 {
+      font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+    h2 {
+      font-size: 1.2rem; /* Adjust heading size for smaller screens */
+    }
+    p {
+      font-size: 0.9rem; /* Adjust paragraph size for smaller screens */
+    }
+    img{
+        margin-left: 40%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    .container { /* Add a container class if needed for specific sections */
+      padding: 0 10px; /* Add padding for smaller screens */
+    }
+    img{
+        margin-left: 30%;
+    }
+  }
